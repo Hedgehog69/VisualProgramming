@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>About_us</class>
+ <widget class="QWidget" name="About_us">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>342</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>О нас</string>
+  </property>
+  <widget class="QTextEdit" name="textEdit">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>441</width>
+     <height>381</height>
+    </rect>
+   </property>
+   <property name="html">
+    <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Добро пожаловать в мир культурного наследия Казахстана! Наша миссия заключается в предоставлении уникальной возможности погрузиться в богатую историю, традиции и искусство этой удивительной страны через призму ее музейных коллекций.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;&amp;quot;Музеи Казахстана&amp;quot; - это справочник, созданный для того, чтобы помочь вам обнаружить множество фасцинирующих уголков культурного наследия, разбросанных по всей территории страны. Мы гордимся тем, что объединяем информацию о богатом культурном наследии Казахстана, предоставляя посетителям возможность углубиться в историю, исследовать традиции и насладиться многогранностью культурного богатства нашей страны.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Наш справочник предлагает широкий спектр информации о музеях, архивах и выставочных пространствах, раскрывая множество интересных аспектов, начиная от археологических находок и исторических артефактов до современного искусства и творчества. Мы стремимся быть вашим надежным проводником в мире культурного наследия Казахстана, помогая вам планировать захватывающие посещения и обогащая ваш опыт открытия.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:12px; margin-bottom:12px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:8pt;&quot;&gt;Присоединяйтесь к нам в путешествии по музейным залам, где каждая экспозиция — это шанс поглубже понять уникальные черты и богатство истории Казахстана. Мы верим, что каждый музей — это не только хранилище прошлого, но и ключ к пониманию сегодняшнего дня и созданию будущего. Спасибо, что выбираете &amp;quot;Музеи Казахстана&amp;quot; в качестве вашего партнера в этом увлекательном исследовании.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

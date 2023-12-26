@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CartridgePage</class>
+ <widget class="QWidget" name="CartridgePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>698</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Картридж</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="printerfon">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <layout class="QVBoxLayout" name="verticalLayout"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="printerfon2">
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <widget class="QPushButton" name="cartButton">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>20</y>
+     <width>101</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Билеты</string>
+   </property>
+  </widget>
+  <zorder>printerfon</zorder>
+  <zorder>verticalLayoutWidget</zorder>
+  <zorder>cartButton</zorder>
+  <zorder>printerfon2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

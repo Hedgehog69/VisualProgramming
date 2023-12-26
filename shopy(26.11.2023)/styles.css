@@ -1,0 +1,476 @@
+/* styles.css */
+
+QPushButton {
+    color: black;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+QPushButton:hover,
+QPushButton:pressed {
+    color: white; /* Новый цвет текста при наведении или нажатии */
+}
+
+QPushButton#sendButton {
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+
+}
+QPushButton#sendButton:hover{
+    background-color: lightgray;
+}
+QHBoxLayout#buttonss {
+    background-color:white;
+}
+
+QLabel#photoLabel1 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+QLabel#photoLabel2 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+QLabel#photoLabel3 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+QLabel#photoLabel4 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+QLabel#photoLabel5 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+QLabel#photoLabel6 {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QLabel#spravka {
+    background-color:none;
+    color: black;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    border:none;
+    font-weight: bold;
+    text-align:center;
+}
+
+QLabel#NameShop {
+    border: none;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    background-color: none;
+}
+QLabel#labeltable {
+    background-color:white;
+}
+QLabel#back {
+    border: none;
+    background-color:#03dbfc;
+}
+QLabel#printerfon {
+    border: none;
+    background-color:#03dbfc;
+}
+QLabel#printerfon2 {
+    border: none;
+    background-color:#03dbfc;
+}
+QLabel#cartlabel {
+    background-color:none;
+    color: white;
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    border:none;
+    font-weight: bold;
+    text-align:center;
+}
+QMenuBar {
+    background-color: white; /* Цвет фона менюбара */
+    spacing: 60px; /* Убираем промежутки между пунктами меню */
+}
+
+
+QMenuBar::item {
+    padding: 0px; /* Убираем отступы вокруг пунктов меню */
+}
+
+QMenu {
+    background-color: white; /* Цвет фона меню */
+}
+
+QMenu::item {
+    padding: 8px 20px; /* Отступы вокруг текста пунктов меню внутри QMenu */
+}
+
+QMenu::item:hover {
+    background-color: lightgray; /* Цвет фона для выделенных пунктов меню */
+    color: white; /* Цвет текста для выделенных пунктов меню */
+}
+
+QPushButton#cartButton {
+    border: none;
+    background-image: url('D:/Shop-main/shopy(26.11.2023)/cart.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    text-align: right;
+}
+QPushButton#questButton {
+    color:black;
+    background-color:none;
+
+}
+QPushButton#questButton:hover {
+    color:GhostWhite;
+}
+QPushButton#vkButton {
+    border: none;
+    background-image: url('D:/Shop-main/shopy(26.11.2023)/vk.png');
+    border-radius:6px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+QPushButton#ytButton {
+    border: none;
+    background-image: url('D:/Shop-main/shopy(26.11.2023)/youtube.png');
+    border-radius:10px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+QPushButton#tgButton {
+    border: none;
+    background-image: url('D:/Shop-main/shopy(26.11.2023)/tg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 19px;
+
+}
+QPushButton#vkButton:hover {
+    background-color:lightgray;
+}
+QPushButton#tgButton:hover {
+    background-color:lightgray;
+}
+QPushButton#ytButton:hover {
+    background-color:lightgray;
+}
+QPushButton#closeButton2{
+    background-color:none;
+    color:black;
+    height: 28;
+    weight: 93;
+    border: 1px solid;
+    text-align: center;
+    border-radius:5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton#closeButton{
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    border-radius:5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton#payButton {
+    background-color:white;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    border-radius:5px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#payButton {
+    background-color:lightgray;
+}
+QPushButton:hover#closeButton2 {
+    background-color:GhostWhite;
+}
+QPushButton#addButton {
+    background-color:none;
+    color:black;
+    height: 28;
+    weight: 93;
+    border: 1px solid;
+    border-radius:5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#addButton {
+    background-color:GhostWhite;
+}
+QPushButton#saveButton {
+    background-color:none;
+    color:black;
+    height: 28;
+    weight: 93;
+    border: 1px solid;
+    border-radius:5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#saveButton {
+    background-color:GhostWhite;
+}
+QPushButton#deleteButton {
+    background-color:none;
+    color:black;
+    height: 28;
+    weight: 93;
+    border: 1px solid;
+    border-radius:5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#deleteButton {
+    background-color:GhostWhite;
+}
+QPushButton#removeButton{
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    border-radius:5px;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#removeButton {
+    background-color:LightSalmon;
+    border-color: Coral;
+
+}
+QPushButton:hover#doneButton {
+    background-color:LightSalmon;
+    border-color: Coral;
+
+}
+QPushButton:hover#closeButton {
+    background-color:LightSalmon;
+    border-color: Coral;
+
+}
+QPushButton#doneButton{
+    background-color:none;
+    color:black;
+    border-radius:5px;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QWidget#CartManager {
+    background-color:#03dbfc;
+}
+QPushButton#buyButton1 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton1 {
+    background-color:lightgray;
+}
+
+QPushButton#buyButton2 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton2 {
+    background-color:lightgray;
+}
+QPushButton#buyButton3 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton3 {
+    background-color:lightgray;
+}
+
+QPushButton#buyButton4 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton4 {
+    background-color:lightgray;
+}
+
+QPushButton#buyButton5 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton5 {
+    background-color:lightgray;
+}
+
+QPushButton#buyButton6 {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+}
+QPushButton:hover#buyButton6 {
+    background-color:lightgray;
+}
+
+QPushButton#loginButton {
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+QPushButton:hover#loginButton{
+    background-color:lightgray;
+}
+QLabel#contakt {
+    border:none;
+    background-color:none;
+    font-size: 16px;
+    font-weight:bold;
+
+}
+QLabel#contakt2{
+    border:none;
+    background-color:none;
+    font-size: 12px;
+    font-weight: bold
+}
+QLabel#endlabel{
+    border:none;
+    background-color:white;
+}
+QLabel#oformlabel {
+    border:none;
+    background-color:none;
+    font-size: 15px;
+    font-weight:bold;
+    color:black;
+}
+QLabel#label {
+    border:none;
+    background-color:none;
+    font-size: 13px;
+    font-weight:bold;
+    color:black;
+}
+QLabel#label2 {
+    border:none;
+    background-color:none;
+    font-size: 13px;
+    font-weight:bold;
+    color:black;
+}
+QLabel#label3 {
+    border:none;
+    background-color:none;
+    font-size: 13px;
+    font-weight:bold;
+    color:black;
+}
+QPushButton#savingButton{
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+QPushButton#homeButton{
+    background-color:none;
+    color:black;
+    border: 1px solid;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+

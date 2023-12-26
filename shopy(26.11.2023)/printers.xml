@@ -1,0 +1,21 @@
+<printers>
+    <printer>
+        <model>Printer 1</model>
+        <price>100.0</price>
+        <shortInfo>Краткая информация о принтере 1</shortInfo>
+	<photoPath>C:/Users/ilyap/Downloads/shopy(26.11.2023)/printer.png</photoPath>
+    </printer>
+    <printer>
+        <model>Printer 2</model>
+        <price>100.0</price>
+        <shortInfo>Краткая информация о принтере 2</shortInfo>
+	<photoPath>C:/Users/ilyap/Downloads/shopy(26.11.2023)/printer.png</photoPath>
+    </printer>
+    <printer>
+        <model>Printer 3</model>
+        <price>100.0</price>
+        <shortInfo>Краткая информация о принтере 3</shortInfo>
+	<photoPath>C:/Users/ilyap/Downloads/shopy(26.11.2023)/printer.png</photoPath>
+    </printer>
+    <!-- Добавьте информацию о других принтерах по аналогии -->
+</printers>
